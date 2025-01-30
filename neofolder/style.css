@@ -20,13 +20,7 @@ body {
 }
 
 
-footer {
-    background-color: #4682B4;
-    text-align: center;
-    width: 100%;
-    height: 80px;
-    flex: 0 0 auto;
-}
+
 * {
     margin: 0;
     padding: 0;
@@ -34,10 +28,6 @@ footer {
 html,
 body {
     height: 100%;
-}
-
-footer {
-    flex: 0 0 auto;
 }
 
 .parameters {
@@ -52,14 +42,11 @@ body {
 }
 
 .blockofsearch {
-    background-color: #4169E1;
-    border-radius: 20px;
-    padding: 30px;
+    background-color: #00CED1;
+    padding: 15px;
+    border-radius: 25px;
 }
 
-header {
-    display: flex;
-}
 
 .slogan {
     text-align: left;
@@ -71,9 +58,13 @@ header {
 }
 .search {
     height: 25px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: aqua;
 }
 .logo {
     margin-right: 30px;
+    margin-bottom: 5px;
 }
 .container {
     display: flex;
@@ -81,7 +72,7 @@ header {
     height: 100px;
     margin: 0 -5px;
 }
-.video {
+.preview {
     background-color: #00CED1;
     flex-grow: 1;
     flex: 1 1 auto;
@@ -90,4 +81,15 @@ header {
 }
 .wrap {
     height: 10px;
+}
+.advertise {
+    height: 100px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: aqua;
+    margin: 25px;
+}
+#0 {
+    background-image: linear-gradient(black, white);
+    background-image: url("previews/poster_1714040004607220.jpg");
 }
