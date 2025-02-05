@@ -1,5 +1,11 @@
+:root {
+    --main-str-color: #00CED1;
+    --header-background-color: #4682B4;
+    --ceil-color: #00CED1;
+}
+
 header {
-    background-color: #4682B4;
+    background-color: var(--header-background-color);
     padding: 20px;
 }
 
@@ -10,7 +16,7 @@ header {
     font-weight: bold;
     font-style: normal;
     font-size: 55px;
-    color: #00CED1;
+    color: var(--main-str-color);
 }
 
 body {
@@ -41,26 +47,19 @@ body {
     background-size: cover;
 }
 
-.blockofsearch {
-    background-color: #00CED1;
-    padding: 15px;
-    border-radius: 25px;
-}
-
-
 .slogan {
     text-align: left;
     font-family: "Roboto Mono", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 20px;
-    color: #00CED1;
+    color: var(--main-str-color);
 }
 .search {
     height: 25px;
     margin: 5px;
     border-radius: 15px;
-    background-color: aqua;
+    background-color: var(--ceil-color);
 }
 .logo {
     margin-right: 30px;
@@ -73,7 +72,7 @@ body {
     margin: 0 -5px;
 }
 .preview {
-    background-color: #00CED1;
+    background-color: var(--ceil-color);
     flex-grow: 1;
     flex: 1 1 auto;
     margin: 0 5px;
@@ -86,10 +85,15 @@ body {
     height: 100px;
     border-radius: 25px;
     padding: 15px;
-    background-color: aqua;
+    background-color: var(--header-background-color);
     margin: 25px;
 }
-#0 {
-    background-image: linear-gradient(black, white);
-    background-image: url("previews/poster_1714040004607220.jpg");
+
+@media (max-width: 750px) {
+    .mainstr {
+        font-size: 150%;
+    }
+    .slogan {
+        font-size: 80%;
+    }
 }
