@@ -107,4 +107,11 @@ body {
     width: 700px;
     border-radius: 30px;
 }
-.aside-
+.aside-advertising {
+    background-color: var(--header-background-color);
+    height: 100px;
+    width: 100px;
+}
+.header_on_player {
+    height: 100px;
+}
