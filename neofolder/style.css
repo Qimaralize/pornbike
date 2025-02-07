@@ -110,8 +110,16 @@ body {
 .aside-advertising {
     background-color: var(--header-background-color);
     height: 100px;
-    width: 100px;
 }
 .header_on_player {
     height: 100px;
+}
+#titleofvideo {
+    text-align: left;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 55px;
+    color: var(--main-str-color);
 }
