@@ -19,12 +19,6 @@ header {
     color: var(--main-str-color);
 }
 
-body {
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +34,7 @@ body {
 }
 
 body {
-    background-image: url('');
+    background-image: url('previews\background_Miku.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -123,3 +117,4 @@ body {
     font-size: 55px;
     color: var(--main-str-color);
 }
+
